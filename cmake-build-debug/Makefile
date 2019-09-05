@@ -123,6 +123,33 @@ sfml_pathFinder/fast:
 	$(MAKE) -f CMakeFiles/sfml_pathFinder.dir/build.make CMakeFiles/sfml_pathFinder.dir/build
 .PHONY : sfml_pathFinder/fast
 
+src/Map.o: src/Map.cpp.o
+
+.PHONY : src/Map.o
+
+# target to build an object file
+src/Map.cpp.o:
+	$(MAKE) -f CMakeFiles/sfml_pathFinder.dir/build.make CMakeFiles/sfml_pathFinder.dir/src/Map.cpp.o
+.PHONY : src/Map.cpp.o
+
+src/Map.i: src/Map.cpp.i
+
+.PHONY : src/Map.i
+
+# target to preprocess a source file
+src/Map.cpp.i:
+	$(MAKE) -f CMakeFiles/sfml_pathFinder.dir/build.make CMakeFiles/sfml_pathFinder.dir/src/Map.cpp.i
+.PHONY : src/Map.cpp.i
+
+src/Map.s: src/Map.cpp.s
+
+.PHONY : src/Map.s
+
+# target to generate assembly for a file
+src/Map.cpp.s:
+	$(MAKE) -f CMakeFiles/sfml_pathFinder.dir/build.make CMakeFiles/sfml_pathFinder.dir/src/Map.cpp.s
+.PHONY : src/Map.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... sfml_pathFinder"
+	@echo "... src/Map.o"
+	@echo "... src/Map.i"
+	@echo "... src/Map.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

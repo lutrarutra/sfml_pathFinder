@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/lutrarutra/Documents/dev/sfml_projects/sfml_pathFinder
 CMakeFiles/sfml_pathFinder.dir/all:
 	$(MAKE) -f CMakeFiles/sfml_pathFinder.dir/build.make CMakeFiles/sfml_pathFinder.dir/depend
 	$(MAKE) -f CMakeFiles/sfml_pathFinder.dir/build.make CMakeFiles/sfml_pathFinder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lutrarutra/Documents/dev/sfml_projects/sfml_pathFinder/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target sfml_pathFinder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lutrarutra/Documents/dev/sfml_projects/sfml_pathFinder/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target sfml_pathFinder"
 .PHONY : CMakeFiles/sfml_pathFinder.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/sfml_pathFinder.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sfml_pathFinder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lutrarutra/Documents/dev/sfml_projects/sfml_pathFinder/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lutrarutra/Documents/dev/sfml_projects/sfml_pathFinder/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sfml_pathFinder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lutrarutra/Documents/dev/sfml_projects/sfml_pathFinder/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/sfml_pathFinder.dir/rule

@@ -3,7 +3,7 @@ project(sfml_pathFinder)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCES src/main.cpp)
+set(SOURCES src/main.cpp src/Map.cpp src/Map.h)
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 # Additional resources like images and fonts

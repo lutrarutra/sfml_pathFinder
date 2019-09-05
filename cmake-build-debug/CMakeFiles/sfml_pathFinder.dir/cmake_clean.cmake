@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sfml_pathFinder.dir/src/main.cpp.o"
+  "CMakeFiles/sfml_pathFinder.dir/src/Map.cpp.o"
   "sfml_pathFinder.pdb"
   "sfml_pathFinder"
 )

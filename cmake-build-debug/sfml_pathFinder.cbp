@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/lutrarutra/Documents/dev/sfml_projects/sfml_pathFinder/src/Map.cpp">
+			<Option target="sfml_pathFinder"/>
+		</Unit>
+		<Unit filename="/Users/lutrarutra/Documents/dev/sfml_projects/sfml_pathFinder/src/Map.h">
+			<Option target="sfml_pathFinder"/>
+		</Unit>
 		<Unit filename="/Users/lutrarutra/Documents/dev/sfml_projects/sfml_pathFinder/src/main.cpp">
 			<Option target="sfml_pathFinder"/>
 		</Unit>
