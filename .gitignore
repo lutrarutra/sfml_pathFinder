@@ -8,9 +8,3 @@ bin
 
 # VS Code
 .vscode/ipch
-
-#IDE
-.idea
-
-# Project specific
-#

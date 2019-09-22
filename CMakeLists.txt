@@ -1,16 +1,19 @@
-cmake_minimum_required(VERSION 3.14)
-project(sfml_pathFinder)
+cmake_minimum_required(VERSION 2.8)
+project(sfml_pathfinder)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCES src/main.cpp src/Map.cpp src/Map.h)
-add_executable(${PROJECT_NAME} ${SOURCES})
 
-# Additional resources like images and fonts
-configure_file(res/OpenSans-Regular.ttf OpenSans-Regular.ttf COPYONLY)
+set(SOURCES src/main.cpp src/Map.cpp)
+add_executable(${PROJECT_NAME} ${SOURCES})
+set_target_properties(${PROJECT_NAME} PROPERTIES OUTPUT_NAME "a")
+
+set (CMAKE_CXX_FLAGS "-g -W -pedantic")
 
 include_directories(src)
 
+# Additional resources like images and fonts
+configure_file(res/OpenSans-Regular.ttf OpenSans-Regular.ttf COPYONLY)
 
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
 find_package(SFML 2 REQUIRED network audio graphics window system)

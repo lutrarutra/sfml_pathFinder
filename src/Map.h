@@ -8,7 +8,8 @@
 #include <vector>
 #include <SFML/Graphics.hpp>
 
-class Map {
+class Map
+{
 public:
     Map(int stepSize, int mapSize, int margin);
     ~Map();
@@ -21,6 +22,7 @@ public:
     void removeWalls();
     void setStart(int x, int y);
     void setEnd(int x, int y);
+    int getMapSize() const;
     sf::Vector2i getStart() const;
     sf::Vector2i getEnd() const;
 
@@ -29,11 +31,10 @@ private:
     sf::Vector2i start;
     sf::Vector2i end;
 
-    std::vector<sf::RectangleShape*> rectangles;
+    std::vector<sf::RectangleShape *> rectangles;
     void initMap();
     // 0 - wall, 1 - none, 2 - path, 3 - start, 4 - end
     std::vector<int> occupants;
 };
-
 
 #endif //SFML_PATHFINDER_MAP_H
